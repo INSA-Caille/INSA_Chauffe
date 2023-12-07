@@ -1,4 +1,4 @@
-FROM node:14.17.3 as build
+FROM node:20-alpine as build
 
 # Create html and workdir
 RUN mkdir -p /var/www/html/

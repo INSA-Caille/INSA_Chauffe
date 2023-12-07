@@ -13,7 +13,7 @@ RUN npm install
 COPY . .
 
 # Construire l'application pour le serveur et le navigateur
-RUN npm run build:ssr
+RUN npm run build
 
 # Étape 2: Serveur Node.js pour Angular Universal
 FROM node:20-alpine as server
@@ -27,5 +27,5 @@ COPY --from=build /app/node_modules/ ./node_modules/
 # Exposer le port sur lequel le serveur Node.js écoute (ajuste selon ta configuration)
 EXPOSE 4000
 
-CMD ["node", "main.js"]
+CMD ["node", "server.mjs"]
 

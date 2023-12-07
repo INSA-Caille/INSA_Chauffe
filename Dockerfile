@@ -20,7 +20,7 @@ RUN npm run build
 # Étape de production
 FROM nginx:alpine
 
-COPY --from=build /app/dist/front/ /usr/share/nginx/html
+COPY --from=build /home/myFrontend/dist/front/ /usr/share/nginx/html
 
 # Copie d'une configuration personnalisée de Nginx si nécessaire
 # COPY nginx.conf /etc/nginx/nginx.conf

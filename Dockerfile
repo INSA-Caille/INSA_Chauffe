@@ -1,31 +1,16 @@
-# Étape 1: Construire l'application
-FROM node:20-alpine as build
-
+FROM node:20-alpine AS build
 WORKDIR /app
-
-# Copier les fichiers de dépendance
-COPY package.json package-lock.json* ./
-
-# Installer les dépendances
+COPY ./package.json /app/
 RUN npm install
-
-# Copier le reste des fichiers de l'application
-COPY . .
-
-# Construire l'application pour le serveur et le navigateur
-RUN npm run build
-
-# Étape 2: Serveur Node.js pour Angular Universal
-FROM node:20-alpine as server
-
+COPY . /app/
+# this will build the browser and server files:
+RUN npm run build:ssr
+FROM nginx:latest AS client-browser
+COPY — from=build /app/dist/front/browser/ /usr/share/nginx/html
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+FROM node:20-alpine AS ssr-server
+COPY — from=build /app/dist /app/dist/
+COPY ./package.json /app/package.json
 WORKDIR /app
-
-# Copier le build du serveur
-COPY --from=build /app/dist/front/server/ ./
-COPY --from=build /app/node_modules/ ./node_modules/
-
-# Exposer le port sur lequel le serveur Node.js écoute (ajuste selon ta configuration)
 EXPOSE 4000
-
-CMD ["node", "server.mjs"]
-
+CMD npm run serve:ssr

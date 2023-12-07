@@ -21,7 +21,7 @@ FROM node:20-alpine as server
 WORKDIR /app
 
 # Copier le build du serveur
-COPY --from=build /app/dist/mon-app/server/ ./
+COPY --from=build /app/dist/front/server/ ./
 COPY --from=build /app/node_modules/ ./node_modules/
 
 # Exposer le port sur lequel le serveur Node.js écoute (ajuste selon ta configuration)

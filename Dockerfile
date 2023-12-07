@@ -1,30 +1,28 @@
-FROM node:20-alpine as build
+# Stage 1: Compile and Build angular codebase
 
-# Create html and workdir
-RUN mkdir -p /var/www/html/
-RUN mkdir -p /home/myFrontend
+# Use official node image as the base image
+FROM node:latest as build
 
-WORKDIR /home/myFrontend
+# Set the working directory
+WORKDIR /usr/local/app
 
-# install package.json 
-COPY package.json /home/myFrontend/package.json
-COPY . /home/myFrontend
+# Add the source code to app
+COPY ./ /usr/local/app/
 
-#Install npm
-RUN npm install -g @angular/cli
+# Install all the dependencies
 RUN npm install
 
-# Build
+# Generate the build of the application
 RUN npm run build
 
-# Étape de production
-FROM nginx:alpine
 
-COPY --from=build /home/myFrontend/dist/front/ /usr/share/nginx/html
+# Stage 2: Serve app with nginx server
 
-# Copie d'une configuration personnalisée de Nginx si nécessaire
-# COPY nginx.conf /etc/nginx/nginx.conf
+# Use official nginx image as the base image
+FROM nginx:latest
 
+# Copy the build output to replace the default nginx contents.
+COPY --from=build /usr/local/app/dist/front /usr/share/nginx/html
+
+# Expose port 80
 EXPOSE 80
-
-CMD ["nginx", "-g", "daemon off;"]

@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optionnel : ajoute une ombre pour un effet de profondeur */
+    height: 60px; /* ou la hauteur que vous souhaitez */
+  }
+  
+  .navbar-logo img {
+    height: 40px; /* Ajustez la taille de votre logo */
+  }
+  
+  .navbar-login button {
+    background-color: #007bff; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .navbar-login button:hover {
+    background-color: #0056b3; /* Couleur au survol */
+  }
+  
+  body {
+    font-family: 'Lalezar', cursive;
+  }

@@ -40,14 +40,8 @@ jobs:
        - name: Deploy to Server
          run: |
            ssh -o StrictHostKeyChecking=no ubuntu@insachauffe "\
-           docker system prune -a && \
-           docker volume ls | grep -q frontend_volume || docker volume create frontend_volume && \
-           docker stop myfrontend || true && \
-           docker rm myfrontend || true && \
-           docker run --rm -v frontend_volume:/data/ ubuntu /bin/sh -c 'rm -rf /data/*' && \
-           docker pull arkc0s/insa-chauffe-angular:latest && \
-           docker run -d --name myfrontend -v frontend_volume:/var/www/html/ arkc0s/insa-chauffe-angular:latest && \
-           docker system prune -af"
+           sudo docker-compose pull && \
+           sudo docker-compose up -d"
 
   
 

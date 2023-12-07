@@ -15,4 +15,4 @@ COPY --from=build /app/dist /app/dist/
 COPY ./package.json /app/package.json
 WORKDIR /app
 EXPOSE 4000
-CMD npm run serve
+CMD npm run serve:ssr:front

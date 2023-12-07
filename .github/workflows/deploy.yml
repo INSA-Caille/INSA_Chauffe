@@ -33,7 +33,7 @@ jobs:
           tags: tag:ci
        - name: Deploy to Server
          run: |
-          ssh -o StrictHostKeyChecking=no user@tailscale-ip 
+          ssh -o StrictHostKeyChecking=no ubuntu@insachauffe
           "docker system prune -a &&
           docker volume ls|grep frontend_volume > /dev/null || docker volume create frontend_volume &&
           docker stop myfrontend &&

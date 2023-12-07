@@ -14,7 +14,7 @@ jobs:
        - name: Setup Node.js
          uses: actions/setup-node@v2
          with:
-           node-version: '16.x'
+           node-version: '20.x'
            cache: 'npm'
        - name: Build and Push the Created Docker Image to your Docker Repo
          uses: mr-smithers-excellent/docker-build-push@v6

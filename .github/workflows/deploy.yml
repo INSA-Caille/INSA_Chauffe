@@ -19,7 +19,7 @@ jobs:
        - name: Build and Push the Created Docker Image to your Docker Repo
          uses: mr-smithers-excellent/docker-build-push@v6
          with:
-          image: your-docker-username/myfrontend
+          image: arkc0s/insa-chauffe-angular
           tags: latest
           registry: docker.io
           username: ${{ secrets.DOCKER_USERNAME }}

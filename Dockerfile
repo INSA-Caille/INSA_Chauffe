@@ -1,28 +1,31 @@
-# Stage 1: Compile and Build angular codebase
+# Étape 1: Construire l'application
+FROM node:20-alpine as build
 
-# Use official node image as the base image
-FROM node:latest as build
+WORKDIR /app
 
-# Set the working directory
-WORKDIR /usr/local/app
+# Copier les fichiers de dépendance
+COPY package.json package-lock.json* ./
 
-# Add the source code to app
-COPY ./ /usr/local/app/
-
-# Install all the dependencies
+# Installer les dépendances
 RUN npm install
 
-# Generate the build of the application
-RUN npm run build
+# Copier le reste des fichiers de l'application
+COPY . .
 
+# Construire l'application pour le serveur et le navigateur
+RUN npm run build:ssr
 
-# Stage 2: Serve app with nginx server
+# Étape 2: Serveur Node.js pour Angular Universal
+FROM node:20-alpine as server
 
-# Use official nginx image as the base image
-FROM nginx:latest
+WORKDIR /app
 
-# Copy the build output to replace the default nginx contents.
-COPY --from=build /usr/local/app/dist/front/browser /usr/share/nginx/html
+# Copier le build du serveur
+COPY --from=build /app/dist/mon-app/server/ ./
+COPY --from=build /app/node_modules/ ./node_modules/
 
-# Expose port 80
-EXPOSE 80
+# Exposer le port sur lequel le serveur Node.js écoute (ajuste selon ta configuration)
+EXPOSE 4000
+
+CMD ["node", "main.js"]
+

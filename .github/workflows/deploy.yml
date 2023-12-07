@@ -31,4 +31,20 @@ jobs:
           oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
           oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
           tags: tag:ci
+       - name: SSH into the server and deploy
+         uses: appleboy/ssh-action@master
+         with:
+           host: ${{ secrets.SERVER_IP }}
+           username: ${{ secrets.SSH_USER }}
+           password: ${{ secrets.SSH_PASSWORD }}
+           script: |
+             docker system prune -a
+             docker volume ls|grep frontend_volume > /dev/null || docker volume create frontend_volume
+             docker stop myfrontend
+             docker rm myfrontend
+             docker run --rm -v frontend_volume:/data/ ubuntu /bin/sh -c     "rm -rf /data/*"
+             docker pull dockerhub-username/myfrontend:latest
+             docker run -d --name myfrontend -v frontend_volume:/var/www/html/ dockerhub-username/myfrontend:latest
+             docker system prune -af
+
 

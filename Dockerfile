@@ -19,4 +19,4 @@ RUN npm run build
 
 # Copy files to html dir
 FROM node:14.17.3
-COPY --from=build /home/myFrontend/dist/myProject/ /var/www/html/
+COPY --from=build /home/myFrontend/dist/front/ /var/www/html/

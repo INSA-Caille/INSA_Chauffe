@@ -25,18 +25,18 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
           dockerfile: Dockerfile
-       - name: Setup SSH Key
-         run: |
-           mkdir -p ~/.ssh
-           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-           chmod 600 ~/.ssh/id_rsa
-           ssh-keyscan insachauffe >> ~/.ssh/known_hosts
        - name: Tailscale
          uses: tailscale/github-action@v2
          with:
           oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
           oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
           tags: tag:ci
+       - name: Setup SSH Key
+         run: |
+           mkdir -p ~/.ssh
+           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+           chmod 600 ~/.ssh/id_rsa
+           ssh-keyscan insachauffe >> ~/.ssh/known_hosts
        - name: Deploy to Server
          run: |
           ssh -o StrictHostKeyChecking=no ubuntu@insachauffe

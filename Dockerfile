@@ -18,5 +18,5 @@ RUN npm install
 RUN npm run build
 
 # Copy files to html dir
-FROM node:14.17.3
+FROM node:20-alpine
 COPY --from=build /home/myFrontend/dist/front/ /var/www/html/

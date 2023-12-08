@@ -1,0 +1,52 @@
+<div class="page" [ngStyle]="{'background': hasAnswered && answer ? 'linear-gradient(to right, #ffffff 50%, #86AF49 50%)' : 
+hasAnswered && !answer ? 'linear-gradient(to right, #ffffff 50%, #E42727 50%)' : 'linear-gradient(to right, #ffffff 50%, #58BDCB 50%)'}"> 
+    <div class="title">
+        <h1><span [ngStyle]="{'color': hasAnswered && answer ? '#86AF49': hasAnswered && !answer? '#E42727' : '#58BDCB' }">
+            VRAI O</span><span class="white">U FAUX</span> 
+        </h1>
+    </div>   
+    <p-card
+    [style]="{
+        width: '700px',
+        height: '300px',
+        'align-item': 'center',
+        display: 'flex',
+        'align-items': 'center',
+        'justify-content': 'center',
+        'border-radius': '40px',
+        border: '0px'
+    }"
+    >
+        <div class="card-content">
+            <div class="left-section">
+                <p-button *ngIf="!hasAnswered" icon="pi pi-times" [style]="{color: '#E42727', 'background-color': 'transparent', border: '0px'}"
+                (click)="checkAnswer(false)"
+                ></p-button>
+            </div>
+        
+            <div class="middle-section">
+              <p class="text">
+                <span>{{ !hasAnswered ? currentQuestion?.question: currentQuestion?.info }}</span>
+                <span *ngIf="hasAnswered"><p> </p><a [href]="currentQuestion?.link" target="_blank">plus d'infos</a></span>
+            </p>
+            </div>
+        
+            <div class="right-section">
+                <p-button *ngIf="!hasAnswered" icon="pi pi-check" [style]="{color: '#86AF49', 'background-color': 'transparent', border: '0px'}"
+                (click)="checkAnswer(true)"
+                ></p-button>
+            </div>
+          </div>
+    </p-card>
+    <div class="container" *ngIf="hasAnswered">
+        <p-button icon="pi pi-arrow-right"
+            [style]="{color: 'white', 'background-color': 'transparent', border: '0px'}">
+        </p-button>
+        <img *ngIf="answer" class="terre" src="assets/img/terre_heureuse.png">
+        <img *ngIf="!answer" class="terre" src="assets/img/terre_nulle_bouuuh.png">
+        <p-button icon="pi pi-arrow-right" 
+            [style]="{color: 'white', 'background-color': 'transparent', border: '0px'}" (click)="updateQuestion()">
+        </p-button>
+    </div>
+      
+</div>

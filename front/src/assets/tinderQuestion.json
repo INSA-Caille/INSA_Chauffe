@@ -1,0 +1,37 @@
+[
+        {
+            "id": 0,
+            "question": "INSA-Caille est la meilleure équipe de la nuit de l'info",
+            "answer": true,
+            "info": "Vrai, en effet, INSA-Caille est une équipe composée de 7 étudiants de l'INSA Hauts-de-France, il s'agit objectivment d'étudiants brillants, courageux, rigoureux, et sacrément beaux gosses.",
+            "link": "https://www.uphf.fr/insa-hdf"
+        },
+        {
+            "id": 1,
+            "question": "Les scientifiques ne sont pas d’accord sur l'existence du réchauffement climatique",
+            "answer": false,
+            "info": "Faux, un consensus scientifique est un long processus fondé sur des preuves vérifiables et acceptées par la communauté scientifique.",
+            "link": "https://bonpote.com/le-consensus-scientifique-sur-le-rechauffement-climatique-est-il-de-100/"
+        },
+        {
+            "id": 2,
+            "question": "L’Amazonie a franchi un point de bascule.",
+            "answer": false,
+            "info": "Faux, un point de bascule peut être d’abord franchi dans le sud-est de l’Amazonie, sans que cela soit le cas pour l’ensemble de la forêt amazonienne mais nous avons encore les moyens physiques et politiques de préserver la forêt amazonienne.",
+            "link": "https://bonpote.com/lamazonie-a-t-elle-franchi-un-point-de-bascule/"
+        },
+        {
+            "id": 3,
+            "question": "Le nombre de mégafeux va augmenter à cause du changement climatique",
+            "answer": true,
+            "info": "Vrai, la sécheresse, les températures élevées, elles-mêmes favorisées par le changement climatique, en sont les principales causes.Toutes les projections concordent à dire qu’ils sont amenés à se multiplier et s’amplifier.",
+            "link": "https://bonpote.com/doit-on-sattendre-a-plus-de-megafeux-a-cause-du-changement-climatique/" 
+        },
+        {
+            "id": 4,
+            "question": " Il y aura de plus en plus de cyclones.",
+            "answer": false,
+            "info": "Faux, les scientifiques pensent que le nombre de cyclones sera inférieur ou similaire, bien que cela puisse varier selon les régions du monde. Mais ils seront en moyenne plus intenses en termes de précipitations et de vitesse du vent.",
+            "link": "https://bonpote.com/plus-de-cyclones-avec-le-changement-climatique/#Peut-on_pour_autant_parler_de_tendance_a_la_hausse"
+        }
+]

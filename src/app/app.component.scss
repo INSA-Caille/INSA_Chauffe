@@ -12,15 +12,6 @@ body{
     margin-top: 0;
 }
 
-// .container{
-//     display: flex;
-//     align-items : center;
-//     justify-content: center;
-//     flex-direction: column;
-//     text-align: center;
-//     // background-color: red;
-// }
-
 .title{
     display: flex;
     align-items: le;
@@ -45,6 +36,44 @@ body{
     padding-top: 10%;
 }
 
+.nuage-container {
+    position: relative;
+    display: inline-block; /* ou 'block' selon votre mise en page */
+  }
+  
+  .nuage-container img {
+    width: 15%; /* Adaptez à la taille nécessaire */
+    height: auto;
+    display: block;
+    padding-left: 15%;
+  }
+  
+  .texte-sur-nuage {
+    position: absolute;
+    top: 53%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    font-size: 16px; /* Adaptez à la taille nécessaire */
+    color: black; /* ou toute autre couleur qui contraste avec votre nuage */
+  }
+
+  .nuage-container-1 img {
+    width: 15%; /* Adaptez à la taille nécessaire */
+    height: auto;
+    display: block;
+    padding-left: 70%;
+  }
+  
+  .texte-sur-nuage-1{
+    position: absolute;
+    top: 109%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+    font-size: 16px; /* Adaptez à la taille nécessaire */
+    color: black; /* ou toute autre couleur qui contraste avec votre nuage */
+  }
+  
+
 .container-games{
     width: 200px;
     height: auto;
@@ -52,8 +81,15 @@ body{
 }
 
 .nuage-1{
-    margin: 2%;
+    margin-bottom: 1%;
+    padding: 20%;
 }
+
+.nuage-2{
+    margin: 10%;
+    padding: 13%;
+}
+
 
 .fixed-planet{
     position: fixed; /* Fixe l'élément par rapport à la fenêtre du navigateur */
@@ -65,29 +101,7 @@ body{
     z-index: 10;     /* Assurez-vous qu'il est au-dessus des autres éléments si nécessaire */
 }
 
-
 .planet{
     justify-content: center;
     align-items: center;
 }
-
-.nuage-container {
-    position: relative;
-    display: inline-block; /* ou 'block' selon votre mise en page */
-  }
-  
-  .nuage-container img {
-    width: 100%; /* Adaptez à la taille nécessaire */
-    height: auto;
-    display: block;
-  }
-  
-  .texte-sur-nuage {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 24px; /* Adaptez à la taille nécessaire */
-    color: black; /* ou toute autre couleur qui contraste avec votre nuage */
-  }
-  

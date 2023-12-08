@@ -1,0 +1,31 @@
+body{
+    background-color: #E0F5F8;
+}
+
+.text-blue{
+    color: #58BDCB;
+}
+
+.container{
+    display: flex;
+    align-items : center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    // background-color: red;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.title{
+    display: flex;
+    align-items: le;
+    flex-direction: column;
+    background-color: red;
+}
+
+.texte-description{
+    display: flex;
+    // text-align: center; 
+    // background-color: blue;
+}

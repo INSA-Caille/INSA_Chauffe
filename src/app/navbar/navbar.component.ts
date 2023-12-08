@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
@@ -9,9 +8,9 @@ import { Router } from '@angular/router';
   styleUrl: './navbar.component.scss'
 })
 export class NavbarComponent {
-  constructor(private router: Router){}
+  // constructor(private router: Router){}
 
   redirigerConnexion(){
-    this.router.navigate(['/login']);
+    // this.router.navigate(['/login']);
   }
 }

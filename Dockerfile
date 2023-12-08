@@ -1,30 +1,19 @@
-FROM node:20-alpine as build
+# base image
+FROM node:20-alpine
 
-# Create html and workdir
-RUN mkdir -p /var/www/html/
-RUN mkdir -p /home/myFrontend
+# set working directory
+WORKDIR /app
 
-WORKDIR /home/myFrontend
+# add `/app/node_modules/.bin` to $PATH
+ENV PATH /app/node_modules/.bin:$PATH
 
-# install package.json 
-COPY package.json /home/myFrontend/package.json
-COPY . /home/myFrontend
-
-#Install npm
-RUN npm install -g @angular/cli
+# install and cache app dependencies
+COPY package.json /app/package.json
 RUN npm install
+RUN npm install -g @angular/cli@17.0.6
 
-# Build
-RUN npm run build
+# add app
+COPY . /app
 
-# Étape de production
-FROM nginx:alpine
-
-COPY --from=build /home/myFrontend/dist/front/ /usr/share/nginx/html
-
-# Copie d'une configuration personnalisée de Nginx si nécessaire
-# COPY nginx.conf /etc/nginx/nginx.conf
-
-EXPOSE 80
-
-CMD ["nginx", "-g", "daemon off;"]
+# start app
+CMD ng serve --host 0.0.0.0

@@ -1,0 +1,152 @@
+{
+    "HomePage": {
+        "Take_care_planet": "Take care of",
+        "Take_care_planet2": "your planet",
+        "descriptif": "Here is your planet, take care of it. The more points you earn, the better it will be. To earn points, play and educate yourself. But beware, if you don't take care of it, its condition will deteriorate, and it will feel worse and worse. Start playing to learn more about climate change.",
+        "minigame_title": "MINI GAMES",
+        "sutom": "SUTOM",
+        "pendu": "HANGMAN",
+        "vraifaux": "TRUE OR FALSE"
+    },
+    "login": {
+        "login": "Login",
+        "username": "Username",
+        "password": "Password",
+        "login_button": "Log In",
+        "register": "Register",
+        "forgot_password": "Forgot Password?",
+        "error": "Error",
+        "error_message": "Incorrect username or password",
+        "error_message2": "Please fill in all fields"
+    },
+    "Documentation_etat_actuel": {
+        "Etat_actuel_titre": "Current State:",
+        "gaz_effets_serre_question": "What are greenhouse gases?",
+        "gaz_effets_serre_response": "Greenhouse gases (GHGs) are substances, such as carbon dioxide (CO2) and methane, that trap some of the sun's heat in the Earth's atmosphere. It's like a blanket that keeps the planet warm, crucial for life as we know it. However, human activities, like the burning of fossil fuels, emit more of these gases, creating a thicker blanket that contributes to global warming.",
+        "giec_question": "What is the IPCC?",
+        "giec_response": "The IPCC, or Intergovernmental Panel on Climate Change, is an organization composed of scientists from around the world. They study data on climate change, explain its causes and consequences, and provide recommendations based on robust scientific evidence. Their goal is to raise awareness and inform governments and the public about the best ways to combat climate change and minimize its impacts. In summary, the IPCC plays a crucial role in helping us understand and address the challenges posed by greenhouse gases and climate change.",
+        "giec_info_question": "What are the key takeaways from the IPCC report?",
+        "giec_info_response": "Global temperature has increased by 1.1°C compared to the 1850-1900 period, establishing current temperatures as the highest since the beginning of the millennium. Sea levels are rising faster since 1900 than in the last 3,000 years, and oceans have warmed more rapidly in the 20th century than in the last 11,000 years. Additionally, carbon dioxide (CO2) concentration in the atmosphere has reached its highest level in 2 million years. These indicators underscore the magnitude of current climate change and its impact on the Earth system.",
+        "chiffre_cle_1_details": "Without urgent strengthening of current climate policies, we are heading towards a warming of 3.2°C by the end of the century.",
+        "chiffre_cle1": "3.2°C",
+        "giec_info_response2": "Extreme weather events are becoming more frequent and intense, significantly affecting our environment. Biodiversity is also threatened, with potential consequences for ecosystem balance. Simultaneously, the increase in these extreme events increases health risks, exposing populations to heightened dangers. Moreover, global agricultural production is impacted, jeopardizing food security as crops and resources become increasingly vulnerable to climate changes. These interconnections highlight the multiple facets of the challenges posed by climate change, with profound implications for the planet and its inhabitants.",
+        "chiffre_cle2": "10%",
+        "chiffre_cle_2_details": "The top 10% of households with the highest per capita emissions contribute to 34-45% of global greenhouse gas emissions.",
+        "titre_impact_planète": "The 9 Key Impacts on the Planet: Criteria Used by Scientists to Assess the Impact on the Planet",
+        "impact_details": "The limit associated with climate change manifests through the level of carbon dioxide (CO2) in the atmosphere, a threshold established at 350 parts per million (ppm). This threshold has been exceeded for some time, rising from 387 ppm in 2009 to 395.5 ppm in 2015. Another crucial threshold, widely emphasized by our scientists, concerns the rate of loss of global biodiversity, which continues to increase, reaching 100 to 1,000 times the 'natural' rate of species extinction. Researchers identify various causes, including the transformation of 'natural' ecosystems into agricultural (e.g., the Amazon) and urban (e.g., metropolitan) areas, as well as the alarming increase in the frequency, duration, and extent of forest fires each year. As Earth's temperature rises, the rate of species extinction also increases. Therefore, the higher the rate of species extinction, the more vulnerable ecosystems become to various climate changes."
+    },
+    "processes": {
+        "1": {
+            "enonce": "Climate Change",
+            "limite": "Reached in 2009, confirmed in 2015"
+        },
+        "2": {
+            "enonce": "Rate of Terrestrial and Marine Biodiversity Loss",
+            "limite": "Reached in 2009, confirmed in 2015"
+        },
+        "3": {
+            "enonce": "Alteration of Biogeochemical Cycles",
+            "limite": {
+                "3.1": "Nitrogen Cycle - Reached in 2009, confirmed in 2015",
+                "3.2": "Phosphorus Cycle - Reached in 2015"
+            }
+        },
+        "4": {
+            "enonce": "Depletion of the Stratospheric Ozone Layer",
+            "limite": "To be monitored!"
+        },
+        "5": {
+            "enonce": "Ocean Acidification",
+            "limite": "Coming soon?"
+        },
+        "6": {
+            "enonce": "Global Freshwater Use",
+            "limite": "Coming soon?"
+        },
+        "7": {
+            "enonce": "Land Use",
+            "limite": "Reached in 2015"
+        },
+        "8": {
+            "enonce": "Chemical Pollution",
+            "limite": "To be monitored!"
+        }
+    },
+    "Documentation_Solutions": {
+        "title": "Solutions",
+        "energy_title": "Energies",
+        "energy_subtitle": "Move away from fossil fuels and invest in renewable energies",
+        "fossil_energy_question": "What are fossil fuels?",
+        "fossil_energy_response": "Fossil fuels are fuels formed from ancient living organisms, such as plants and animals, that have been buried and transformed by pressure and heat over millions of years. The main sources of fossil energy include oil, coal, and natural gas.",
+        "fossil_energy_question2": "Why do we want to stop using them?",
+        "fossil_energy_response2": "The idea of phasing out fossil fuels mainly comes from the fact that their extensive use contributes to serious environmental problems. Burning fuels like oil and coal for energy production releases a lot of greenhouse gases, which warm the planet and cause significant climate changes. In simple terms, it is necessary to avoid fossil fuels as much as possible to preserve our planet.",
+        "fossil_energy_question3": "What can replace them?",
+        "fossil_energy_response3": "To replace fossil energies, efforts are being made to adopt more sustainable and environmentally friendly energy sources. The main alternatives include renewable energy, such as solar and wind energy. Solar energy uses sunlight to generate electricity, while wind energy harnesses the power of the wind. These energy sources are cleaner as they do not produce harmful greenhouse gases, thus contributing to mitigating climate change. Additionally, other innovative technologies, such as advanced batteries and energy storage, are making these alternatives more efficient and reliable. The goal is to create a more sustainable and environmentally friendly energy future. The costs of these two energies have decreased between 2010 and 2019 by -85% for solar energy and -55% for wind energy.",
+        "fossil_energy_question4": "Are there other renewable energies?",
+        "fossil_energy_response4": "<strong>Hydraulic Energy (Hydropower)</strong>: This energy is produced by using the force of water, usually from dams. The moving water turns turbines to generate electricity.<br><br><strong>Biomass Energy</strong>: This energy comes from the combustion of organic materials such as wood, agricultural waste, and forest residues to produce heat or electricity.<br><br><strong>Geothermal Energy</strong>: It harnesses heat from the Earth's interior. Geothermal power plants can produce electricity using heat from the ground or underground hot water.<br><br><strong>Wave and Tidal Energy</strong>: These forms of energy use the movement of ocean waves or tides to generate electricity.<br><br><strong>Solar Thermal Energy</strong>: Instead of converting sunlight into electricity, this technology uses solar heat to warm fluids that produce steam, which then drives turbines.<br><br><strong>Offshore Wind Energy</strong>: Wind turbines installed at sea benefit from stronger and more consistent winds, making it a promising source of wind energy.<br><br><strong>Integrated Photovoltaic Solar Energy</strong>: This technology integrates solar panels directly into structures like buildings, providing electricity while serving as an architectural element.",
+        "industry_title": "Industry",
+        "industry_subtitle": "Technologies used to decarbonize industry",
+        "industry_question1": "What is the role of technological progress in decarbonizing industry?",
+        "industry_response1": "Recent technological advances have paved the way for decarbonizing industry by enabling more efficient use of materials, circular approaches such as reusing and recycling products, significant waste reduction, and decreased demand. These advancements offer significant opportunities to reduce the environmental impact of the industry.",
+        "industry_question2": "How can the decarbonization of industry be achieved?",
+        "industry_response2": "Decarbonizing industry can be achieved by adopting measures such as more efficient use of materials, circular approaches, waste reduction, and decreased demand. Material efficiency and sobriety represent half the decarbonization potential of this sector. Moreover, the adoption of low or zero greenhouse gas (GHG) emission production processes for basic materials such as steel and construction materials plays a crucial role.",
+        "industry_question3": "What is the decarbonization potential of the industrial sector and how can it be achieved?",
+        "industry_response3": "The industrial sector accounts for about a quarter of global emissions, and its decarbonization potential lies mainly in improving material efficiency and promoting sobriety. Specifically, policy choices favoring approaches such as more efficient use of materials, reuse, recycling, and significant waste reduction can contribute to decarbonization. It is also emphasized that low or zero GHG emission production processes will soon be available for basic materials.",
+        "industry_question4": "What are the potential obstacles to the decarbonization of the industry?",
+        "industry_response4": "Potential obstacles to the decarbonization of the industry could include inadequate policy choices that do not promote a true transformation of the sector. Insufficient implementation of available technologies, as well as resistance to changes in traditional production processes, could also hinder decarbonization efforts. Increased awareness, adequate policy support, and collaboration between stakeholders are essential to overcome these obstacles.",
+        "agriculture_title": "Agriculture and Food",
+        "agriculture_subtitle": "Sustainable practices in agriculture and food",
+        "agriculture_question1": "How can the agriculture sector contribute to mitigating greenhouse gas emissions?",
+        "agriculture_response1": "The agriculture sector offers several options to mitigate greenhouse gas emissions. Agroecological practices, such as reducing the use of synthetic fertilizers, diversifying crops, and better management of animal manure, play a crucial role in limiting emissions and improving carbon storage in soils. These practices also bring multiple benefits such as biodiversity protection, better water, air, and soil quality, as well as food security.",
+        "agriculture_question2": "What is the role of agroforestry in mitigating greenhouse gas emissions?",
+        "agriculture_response2": "Agroforestry, which involves combining trees, crops, and/or livestock on the same plot, has a strong potential for mitigating greenhouse gas emissions. This practice helps improve carbon sequestration in soils while offering other benefits such as income diversification for farmers.",
+        "agriculture_question3": "Why is it important to protect forests and ecosystems in the context of climate change mitigation?",
+        "agriculture_response3": "Forests and ecosystems play a crucial role in carbon absorption, highlighting the importance of protecting them and combating deforestation. However, the IPCC emphasizes that while forest protection is essential, it cannot compensate for emissions reduction, which must remain a priority in all sectors.",
+        "agriculture_question4": "What types of diets are recommended to reduce greenhouse gas emissions according to the IPCC?",
+        "agriculture_response4": "The IPCC confirms that shifting to diets rich in plant proteins (such as legumes and cereals) and low in meat and dairy products allows for a significant reduction in greenhouse gas emissions. These dietary choices contribute significantly to climate change mitigation.",
+        "transport_title": "Transport",
+        "transport_subtitle": "Changing individual mobility",
+        "transport_question1": "Why is the decarbonization of transport a major challenge in the fight against climate change?",
+        "transport_response1": "The decarbonization of transport is of paramount importance in the fight against climate change, as this sector represents the largest greenhouse gas emitter in France (31%) and a quarter of global emissions. It is crucial to reduce these emissions to mitigate negative impacts on the climate.",
+        "transport_question2": "What are the actions recommended by the IPCC to reduce greenhouse gas emissions from individual mobility?",
+        "transport_response2": "The IPCC recommends several measures to decrease greenhouse gas emissions from individual mobility. This includes promoting car-free mobility by encouraging walking and cycling, incentivizing public transportation, supporting electric vehicles, and reducing air travel, especially long-haul flights.",
+        "transport_question3": "How can a reorganization of urban areas contribute to the reduction of fuel consumption related to urban transport?",
+        "transport_response3": "A reorganization of urban areas can significantly contribute to the reduction of fuel consumption related to urban transport, with a potential decrease of around 25%. This involves the establishment of transportation infrastructure less dependent on cars and proximity between individuals' homes and workplaces, thereby promoting more sustainable modes of transportation.",
+        "transport_question4": "Why is limiting air traffic considered the most effective way to reduce emissions from the aviation sector?",
+        "transport_response4": "Limiting air traffic is considered the most effective measure to reduce emissions from the aviation sector, as the IPCC estimates that no significant improvement in energy efficiency can keep pace with the predicted growth in air transport. Restricting air traffic appears necessary to mitigate emissions from this sector."
+    },
+    "Documentation_other_solutions": {
+        "title": "Other Solutions for Everyone",
+        "solution1": "Avoid polluting transportation (car, plane) and prefer active mobilities (walking, cycling) and public transportation;",
+        "solution2": "Use lighter vehicles, which require fewer materials and less energy;",
+        "solution3": "Promote electric vehicles;",
+        "solution4": "Adopt diets that are less rich in meat, healthy, balanced, and sustainable;",
+        "solution5": "Reorganize production and supply chains to limit the distances traveled by goods and people."
+    },
+    "Documentation_where_to_inform": {
+        "title": "Where to Get Informed?",
+        "intro": "Do you want to learn more about the topics that interested you?",
+        "link1": "You can check these links: https://reseauactionclimat.org/urgence-climatique/",
+        "link2": "If you want to know more about common misconceptions: https://bonpote.com/idees-recues/",
+        "link3": "For more in-depth training, you can follow this course: https://climat.cned.fr/formations/",
+        "link4": "You can learn about the Intergovernmental Panel on Climate Change: https://www.ipcc.ch/languages-2/francais/",
+        "link5": "You can find more information about the French Environment and Energy Management Agency (ADEME): https://www.ademe.fr",
+        "link6": "To learn about the CO2 impact of your lifestyle: https://nosgestesclimat.fr",
+        "link7": "To calculate the CO2 impact of everyday objects: https://impactco2.fr",
+        "link8": "The ten key points of the IPCC: https://reseauactionclimat.org/wp-content/uploads/2023/03/rac-brochure-synthese-giec_web-leger.pdf"
+    },
+    "Ideas_misconceptions": {
+        "idea1": "Scientists do not agree on the existence of climate change.",
+        "explanation1": "Scientific consensus is a lengthy process based on verifiable evidence accepted by the scientific community. <br>Learn more: https://bonpote.com/le-consensus-scientifique-sur-le-rechauffement-climatique-est-il-de-100/",
+        "idea2": "The Amazon has reached a tipping point.",
+        "explanation2": "A tipping point may have been crossed in southeastern Amazonia, without it being the case for the entire Amazon forest. We still have the physical and political means to preserve the Amazon forest. <br>Learn more: https://bonpote.com/lamazonie-a-t-elle-franchi-un-point-de-bascule/",
+        "idea3": "The number of megafires will increase due to climate change.",
+        "explanation3": "Drought, high temperatures, themselves favored by climate change, are the main causes. All projections agree that they are likely to multiply and intensify. <br>Learn more: https://bonpote.com/doit-on-sattendre-a-plus-de-megafeux-a-cause-du-changement-climatique/",
+        "idea4": "There will be more and more hurricanes.",
+        "explanation4": "Scientists believe that the number of hurricanes will be lower or similar, although this may vary by region. But they will be, on average, more intense in terms of precipitation and wind speed. <br>Learn more: https://bonpote.com/plus-de-cyclones-avec-le-changement-climatique/#Peut-on_pour_autant_parler_de_tendance_a_la_hausse",
+        "true": "True",
+        "false": "False"
+    }
+    
+    
+}

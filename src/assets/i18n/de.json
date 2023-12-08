@@ -1,0 +1,154 @@
+{
+    "HomePage": {
+        "Take_care_planet": "Kümmere dich um",
+        "Take_care_planet2": "deinen Planeten",
+        "descriptif": "Hier ist dein Planet, kümmere dich darum. Je mehr Punkte du sammelst, desto besser wird es ihm gehen. Um Punkte zu sammeln, spiele und bilde dich weiter. Aber Vorsicht, wenn du dich nicht darum kümmerst, wird sein Zustand sich verschlechtern, und es wird ihm immer schlechter gehen. Starte das Spiel, um mehr über den Klimawandel zu erfahren.",
+        "minigame_title": "MINISPIELE",
+        "sutom": "SUTOM",
+        "pendu": "GALGENMANN",
+        "vraifaux": "WAHR ODER FALSCH"
+    },
+    "login": {
+        "login": "Anmelden",
+        "username": "Benutzername",
+        "password": "Passwort",
+        "login_button": "Einloggen",
+        "register": "Registrieren",
+        "forgot_password": "Passwort vergessen?",
+        "error": "Fehler",
+        "error_message": "Falscher Benutzername oder falsches Passwort",
+        "error_message2": "Bitte füllen Sie alle Felder aus"
+    },
+    "Documentation_etat_actuel": {
+        "Etat_actuel_titre": "Aktueller Stand:",
+        "gaz_effets_serre_question": "Was sind Treibhausgase?",
+        "gaz_effets_serre_response": "Treibhausgase (THG) sind Substanzen wie Kohlendioxid (CO2) und Methan, die einen Teil der Sonnenwärme in der Erdatmosphäre einfangen. Es ist wie eine Decke, die den Planeten warm hält, was für das Leben, wie wir es kennen, entscheidend ist. Allerdings emittieren menschliche Aktivitäten wie die Verbrennung fossiler Brennstoffe mehr von diesen Gasen, was zu einer dickeren Decke führt, die zum globalen Klimawandel beiträgt.",
+        "giec_question": "Was ist der IPCC?",
+        "giec_response": "Der IPCC oder Zwischenstaatliche Ausschuss für Klimaänderungen ist eine Organisation, die aus Wissenschaftlern aus der ganzen Welt besteht. Sie untersuchen Daten zum Klimawandel, erklären dessen Ursachen und Folgen und geben auf robusten wissenschaftlichen Erkenntnissen basierende Empfehlungen ab. Ihr Ziel ist es, die Regierungen und die Öffentlichkeit für die besten Möglichkeiten zur Bekämpfung des Klimawandels und zur Minimierung seiner Auswirkungen zu sensibilisieren und zu informieren. Zusammengefasst spielt der IPCC eine entscheidende Rolle, um uns bei der Bewältigung der durch Treibhausgase und Klimawandel bedingten Herausforderungen zu helfen.",
+        "giec_info_question": "Was sind die wichtigsten Erkenntnisse aus dem IPCC-Bericht?",
+        "giec_info_response": "Die globale Temperatur ist im Vergleich zum Zeitraum 1850-1900 um 1,1°C gestiegen und hat die aktuellen Temperaturen als die höchsten seit Beginn des Jahrtausends etabliert. Der Meeresspiegel steigt seit 1900 schneller als in den letzten 3.000 Jahren, und die Ozeane haben sich im 20. Jahrhundert schneller erwärmt als in den letzten 11.000 Jahren. Darüber hinaus hat die Konzentration von Kohlendioxid (CO2) in der Atmosphäre ihren höchsten Stand seit 2 Millionen Jahren erreicht. Diese Indikatoren verdeutlichen das Ausmaß des aktuellen Klimawandels und dessen Auswirkungen auf das Erdsystem.",
+        "chiffre_cle_1_details": "Ohne eine dringende Stärkung der aktuellen Klimapolitik steuern wir auf eine Erwärmung von 3,2°C bis Ende des Jahrhunderts zu.",
+        "chiffre_cle1": "3,2°C",
+        "giec_info_response2": "Extremwetterereignisse werden häufiger und intensiver und beeinflussen die Umwelt erheblich. Die Artenvielfalt ist ebenfalls bedroht, mit potenziellen Auswirkungen auf das Gleichgewicht der Ökosysteme. Gleichzeitig erhöht die Zunahme dieser extremen Ereignisse das Gesundheitsrisiko und setzt die Bevölkerung erhöhten Gefahren aus. Darüber hinaus ist die weltweite landwirtschaftliche Produktion betroffen, was die Lebensmittelsicherheit gefährdet, da Ernten und Ressourcen zunehmend anfällig für Klimaveränderungen werden. Diese Wechselwirkungen verdeutlichen die vielfältigen Facetten der durch den Klimawandel verursachten Herausforderungen mit tiefgreifenden Auswirkungen auf den Planeten und seine Bewohner.",
+        "chiffre_cle2": "10%",
+        "chiffre_cle_2_details": "Die oberen 10% der Haushalte mit den höchsten pro Kopf Emissionen tragen zu 34-45% der weltweiten Treibhausgasemissionen bei.",
+        "titre_impact_planète": "Die 9 wichtigsten Auswirkungen auf den Planeten: Kriterien, die von Wissenschaftlern zur Bewertung der Auswirkungen auf den Planeten verwendet werden",
+        "impact_details": "Die mit dem Klimawandel verbundene Grenze zeigt sich durch den Kohlendioxidgehalt (CO2) in der Atmosphäre, einer Schwelle, die auf 350 Teile pro Million (ppm) festgelegt ist. Diese Schwelle wurde seit einiger Zeit überschritten und stieg von 387 ppm im Jahr 2009 auf 395,5 ppm im Jahr 2015. Eine weitere entscheidende Schwelle, die von unseren Wissenschaftlern stark betont wird, betrifft die Rate des Verlusts der globalen Artenvielfalt, die weiterhin zunimmt und 100 bis 1.000-mal höher ist als die 'natürliche' Rate des Artensterbens. Forscher identifizieren verschiedene Ursachen, darunter die Umwandlung von 'natürlichen' Ökosystemen in landwirtschaftliche (z.B. Amazonas) und städtische (z.B. städtische) Gebiete sowie den alarmierenden Anstieg der Häufigkeit, Dauer und Ausdehnung von Waldbränden jedes Jahr. Mit steigender Erdtemperatur nimmt auch die Rate des Artensterbens zu. Daher werden Ökosysteme durch einen höheren Grad des Artensterbens anfälliger für verschiedene Klimaveränderungen."
+    },
+    "processes": {
+        "1": {
+            "enonce": "Klimawandel",
+            "limite": "Erreicht 2009, bestätigt 2015"
+        },
+        "2": {
+            "enonce": "Rate des Verlusts terrestrischer und mariner Artenvielfalt",
+            "limite": "Erreicht 2009, bestätigt 2015"
+        },
+        "3": {
+            "enonce": "Veränderung der biogeochemischen Kreisläufe",
+            "limite": {
+                "3.1": "Stickstoffkreislauf - Erreicht 2009, bestätigt 2015",
+                "3.2": "Phosphorkreislauf - Erreicht 2015"
+            }
+        },
+        "4": {
+            "enonce": "Abbau der stratosphärischen Ozonschicht",
+            "limite": "Wird überwacht!"
+        },
+        "5": {
+            "enonce": "Ozeanversauerung",
+            "limite": "Demnächst?"
+        },
+        "6": {
+            "enonce": "Weltweiter Süßwasserverbrauch",
+            "limite": "Demnächst?"
+        },
+        "7": {
+            "enonce": "Landnutzung",
+            "limite": "Erreicht 2015"
+        },
+        "8": {
+            "enonce": "Chemische Verschmutzung",
+            "limite": "Wird überwacht!"
+        }
+    },
+    "Documentation_Solutions": {
+        "title": "Lösungen",
+        "energy_title": "Energien",
+        "energy_subtitle": "Verabschieden Sie sich von fossilen Brennstoffen und investieren Sie in erneuerbare Energien",
+        "fossil_energy_question": "Was sind fossile Brennstoffe?",
+        "fossil_energy_response": "Fossile Brennstoffe sind Brennstoffe, die aus alten lebenden Organismen wie Pflanzen und Tieren entstanden sind und über Millionen von Jahren durch Druck und Hitze umgewandelt wurden. Die Hauptquellen fossiler Energie umfassen Öl, Kohle und Erdgas.",
+        "fossil_energy_question2": "Warum wollen wir aufhören, sie zu verwenden?",
+        "fossil_energy_response2": "Die Idee, fossile Brennstoffe auszuphasen, stammt hauptsächlich daher, dass ihr umfangreicher Einsatz zu ernsthaften Umweltproblemen beiträgt. Die Verbrennung von Brennstoffen wie Öl und Kohle zur Energieerzeugung setzt viele Treibhausgase frei, die den Planeten erwärmen und erhebliche Klimaveränderungen verursachen. Es ist notwendig, fossile Brennstoffe so weit wie möglich zu vermeiden, um unseren Planeten zu erhalten.",
+        "fossil_energy_question3": "Was kann sie ersetzen?",
+        "fossil_energy_response3": "Um fossile Energien zu ersetzen, werden Anstrengungen unternommen, nachhaltigere und umweltfreundlichere Energiequellen zu übernehmen. Die wichtigsten Alternativen sind erneuerbare Energien wie Sonnen- und Windenergie. Solarenergie nutzt Sonnenlicht zur Stromerzeugung, während Windenergie die Kraft des Windes nutzt. Diese Energiequellen sind sauberer, da sie keine schädlichen Treibhausgase produzieren und somit zur Minderung des Klimawandels beitragen. Zusätzlich machen andere innovative Technologien wie fortschrittliche Batterien und Energiespeicher diese Alternativen effizienter und zuverlässiger. Das Ziel ist es, eine nachhaltigere und umweltfreundlichere Energiezukunft zu schaffen. Die Kosten dieser beiden Energien sind zwischen 2010 und 2019 um -85% für Solarenergie und -55% für Windenergie gesunken.",
+        "fossil_energy_question4": "Gibt es andere erneuerbare Energien?",
+        "fossil_energy_response4": "<strong>Hydraulische Energie (Wasserkraft)</strong>: Diese Energie wird durch die Kraft des Wassers erzeugt, normalerweise von Staudämmen. Das bewegte Wasser dreht Turbinen zur Stromerzeugung.<br><br><strong>Biomasseenergie</strong>: Diese Energie stammt aus der Verbrennung organischer Materialien wie Holz, landwirtschaftlichen Abfällen und Waldrückständen zur Erzeugung von Wärme oder Strom.<br><br><strong>Geothermische Energie</strong>: Sie nutzt die Wärme aus dem Inneren der Erde. Geothermische Kraftwerke können Elektrizität unter Verwendung von Wärme aus dem Boden oder unterirdischem heißem Wasser erzeugen.<br><br><strong>Wellen- und Gezeitenenergie</strong>: Diese Formen der Energie nutzen die Bewegung von Meereswellen oder Gezeiten zur Stromerzeugung.<br><br><strong>Solare Thermische Energie</strong>: Anstatt Sonnenlicht in Elektrizität umzuwandeln, nutzt diese Technologie die Sonnenwärme, um Flüssigkeiten zu erwärmen, die Dampf erzeugen, der dann Turbinen antreibt.<br><br><strong>Offshore-Windenergie</strong>: Windturbinen auf See profitieren von stärkeren und gleichmäßigeren Winden und sind somit eine vielversprechende Quelle für Windenergie.<br><br><strong>Integrierte Photovoltaik-Solarenergie</strong>: Diese Technologie integriert Solarmodule direkt in Strukturen wie Gebäude und liefert Strom, während sie als architektonisches Element dient.",
+        "industry_title": "Industrie",
+        "industry_subtitle": "Technologien zur Dekarbonisierung der Industrie",
+        "industry_question1": "Welche Rolle spielt der technologische Fortschritt bei der Dekarbonisierung der Industrie?",
+        "industry_response1": "Der technologische Fortschritt hat in jüngster Zeit den Weg für die Dekarbonisierung der Industrie geebnet, indem er eine effizientere Nutzung von Materialien, kreislauforientierte Ansätze wie die Wiederverwendung und das Recycling von Produkten, erhebliche Abfallreduktion und eine verringerte Nachfrage ermöglicht hat. Diese Fortschritte bieten bedeutende Chancen, die Umweltauswirkungen der Industrie zu reduzieren.",
+        "industry_question2": "Wie kann die Dekarbonisierung der Industrie erreicht werden?",
+        "industry_response2": "Die Dekarbonisierung der Industrie kann durch Maßnahmen wie effizientere Nutzung von Materialien, kreislauforientierte Ansätze, Abfallreduktion und eine verringerte Nachfrage erreicht werden. Materialeffizienz und -sobrietät repräsentieren die Hälfte des Dekarbonisierungspotenzials dieses Sektors. Darüber hinaus spielt die Einführung von Produktionsprozessen mit geringen oder keinen Treibhausgasemissionen für Grundmaterialien wie Stahl und Baustoffe eine entscheidende Rolle.",
+        "industry_question3": "Was ist das Dekarbonisierungspotenzial des Industriesektors und wie kann es erreicht werden?",
+        "industry_response3": "Der Industriesektor trägt etwa ein Viertel der globalen Emissionen bei, und sein Dekarbonisierungspotenzial liegt hauptsächlich in der Verbesserung der Materialeffizienz und der Förderung von Sobiété. Insbesondere können politische Entscheidungen, die Ansätze wie effizientere Nutzung von Materialien, Wiederverwendung, Recycling und erhebliche Abfallreduktion fördern, zur Dekarbonisierung beitragen. Es wird auch betont, dass in Kürze Produktionsprozesse mit geringen oder keinen THG-Emissionen für Grundmaterialien verfügbar sein werden.",
+        "industry_question4": "Was sind mögliche Hindernisse für die Dekarbonisierung der Industrie?",
+        "industry_response4": "Mögliche Hindernisse für die Dekarbonisierung der Industrie könnten unzureichende politische Entscheidungen sein, die keine echte Transformation des Sektors fördern. Unzureichende Umsetzung verfügbarer Technologien sowie Widerstand gegen Veränderungen in traditionellen Produktionsprozessen könnten ebenfalls Dekarbonisierungsbemühungen behindern. Eine erhöhte Aufklärung, angemessene politische Unterstützung und Zusammenarbeit zwischen den Beteiligten sind entscheidend, um diese Hindernisse zu überwinden.",
+        "agriculture_title": "Landwirtschaft und Ernährung",
+        "agriculture_subtitle": "Nachhaltige Praktiken in Landwirtschaft und Ernährung",
+        "agriculture_question1": "Wie kann der Agrarsektor zur Minderung von Treibhausgasemissionen beitragen?",
+        "agriculture_response1": "Der Agrarsektor bietet mehrere Möglichkeiten zur Minderung von Treibhausgasemissionen. Agroökologische Praktiken wie die Reduzierung des Einsatzes synthetischer Düngemittel, die Diversifizierung von Kulturen und eine bessere Verwaltung von Tiermist spielen eine entscheidende Rolle bei der Begrenzung von Emissionen und der Verbesserung der Kohlenstoffspeicherung im Boden. Diese Praktiken bringen auch mehrere Vorteile wie den Schutz der Biodiversität, eine bessere Wasser-, Luft- und Bodenqualität sowie die Sicherung der Lebensmittelversorgung.",
+        "agriculture_question2": "Welche Rolle spielt Agroforstwirtschaft bei der Minderung von Treibhausgasemissionen?",
+        "agriculture_response2": "Die Agroforstwirtschaft, bei der Bäume, Kulturen und/oder Vieh auf demselben Grundstück kombiniert werden, hat ein großes Potenzial zur Minderung von Treibhausgasemissionen. Diese Praxis trägt zur Verbesserung der Kohlenstoffbindung im Boden bei und bietet gleichzeitig andere Vorteile wie Einkommensdiversifizierung für Landwirte.",
+        "agriculture_question3": "Warum ist es wichtig, Wälder und Ökosysteme im Kontext der Minderung des Klimawandels zu schützen?",
+        "agriculture_response3": "Wälder und Ökosysteme spielen eine entscheidende Rolle bei der Kohlendioxidabsorption, was die Bedeutung ihres Schutzes und der Bekämpfung der Entwaldung hervorhebt. Die IPCC betont jedoch, dass der Schutz von Wäldern zwar wichtig ist, dies jedoch nicht den Ausgleich für die Reduzierung von Emissionen ersetzen kann, was in allen Sektoren Vorrang haben muss.",
+        "agriculture_question4": "Welche Arten von Diäten empfiehlt der IPCC zur Reduzierung von Treibhausgasemissionen?",
+        "agriculture_response4": "Der IPCC bestätigt, dass der Wechsel zu Diäten, die reich an pflanzlichen Proteinen (wie Hülsenfrüchten und Getreide) und arm an Fleisch- und Milchprodukten sind, eine erhebliche Reduzierung von Treibhausgasemissionen ermöglicht. Diese Ernährungswahl trägt erheblich zur Minderung des Klimawandels bei.",
+        "transport_title": "Verkehr",
+        "transport_subtitle": "Änderung der individuellen Mobilität",
+        "transport_question1": "Warum ist die Dekarbonisierung des Verkehrs eine große Herausforderung im Kampf gegen den Klimawandel?",
+        "transport_response1": "Die Dekarbonisierung des Verkehrs ist von größter Bedeutung im Kampf gegen den Klimawandel, da dieser Sektor den größten Treibhausgasemitter in Frankreich (31%) und ein Viertel der weltweiten Emissionen darstellt. Es ist entscheidend, diese Emissionen zu reduzieren, um negative Auswirkungen auf das Klima zu mildern.",
+        "transport_question2": "Welche Maßnahmen empfiehlt der IPCC zur Reduzierung von Treibhausgasemissionen durch individuelle Mobilität?",
+        "transport_response2": "Der IPCC empfiehlt mehrere Maßnahmen zur Verringerung von Treibhausgasemissionen durch individuelle Mobilität. Dazu gehört die Förderung von autoarmer Mobilität durch die Ermutigung zum Gehen und Radfahren, die Anreize für den öffentlichen Verkehr, die Unterstützung von Elektrofahrzeugen und die Verringerung von Flugreisen, insbesondere von Langstreckenflügen.",
+        "transport_question3": "Wie kann eine Neuorganisation von städtischen Gebieten zur Verringerung des Kraftstoffverbrauchs im Zusammenhang mit städtischem Verkehr beitragen?",
+        "transport_response3": "Eine Neuorganisation von städtischen Gebieten kann erheblich zur Verringerung des Kraftstoffverbrauchs im Zusammenhang mit städtischem Verkehr beitragen, mit einer potenziellen Verringerung von etwa 25%. Dies beinhaltet den Aufbau von Verkehrsinfrastrukturen, die weniger auf Autos angewiesen sind, und die Nähe zwischen den Wohnorten der Menschen und ihren Arbeitsplätzen fördern, um so nachhaltigere Verkehrsmittel zu unterstützen.",
+        "transport_question4": "Warum wird die Begrenzung des Flugverkehrs als effektivste Maßnahme zur Reduzierung von Emissionen aus dem Luftverkehrssektor betrachtet?",
+        "transport_response4": "Die Begrenzung des Flugverkehrs gilt als effektivste Maßnahme zur Reduzierung von Emissionen aus dem Luftverkehrssektor, da der IPCC schätzt, dass keine signifikante Verbesserung der Energieeffizienz mit dem vorhergesagten Wachstum im Luftverkehr Schritt halten kann. Die Begrenzung des Flugverkehrs scheint notwendig zu sein, um Emissionen aus diesem Sektor zu mildern."
+    },
+    "Documentation_other_solutions": {
+        "title": "Andere Lösungen für Jeden",
+        "solution1": "Vermeiden Sie verschmutzende Verkehrsmittel (Auto, Flugzeug) und bevorzugen Sie aktive Fortbewegungsmittel (Gehen, Radfahren) und den öffentlichen Verkehr;",
+        "solution2": "Verwenden Sie leichtere Fahrzeuge, die weniger Materialien und Energie benötigen;",
+        "solution3": "Fördern Sie Elektrofahrzeuge;",
+        "solution4": "Übernehmen Sie Diäten, die weniger fleischreich, gesund, ausgewogen und nachhaltig sind;",
+        "solution5": "Reorganisieren Sie Produktion und Lieferketten, um die zurückgelegten Strecken von Gütern und Menschen zu begrenzen."
+    },
+    "Documentation_where_to_inform": {
+        "title": "Wo kann man sich informieren?",
+        "intro": "Möchten Sie mehr über die Themen erfahren, die Sie interessieren?",
+        "link1": "Sie können diese Links überprüfen: https://reseauactionclimat.org/urgence-climatique/",
+        "link2": "Wenn Sie mehr über gängige Missverständnisse erfahren möchten: https://bonpote.com/idees-recues/",
+        "link3": "Für vertiefende Schulungen können Sie diesen Kurs besuchen: https://climat.cned.fr/formations/",
+        "link4": "Sie können mehr über den Weltklimarat erfahren: https://www.ipcc.ch/languages-2/francais/",
+        "link5": "Weitere Informationen zur französischen Agentur für Umwelt- und Energiemanagement (ADEME) finden Sie hier: https://www.ademe.fr",
+        "link6": "Um den CO2-Einfluss Ihres Lebensstils zu erfahren: https://nosgestesclimat.fr",
+        "link7": "Um den CO2-Einfluss von Alltagsgegenständen zu berechnen: https://impactco2.fr",
+        "link8": "Die zehn wichtigsten Punkte des Weltklimarats (IPCC): https://reseauactionclimat.org/wp-content/uploads/2023/03/rac-brochure-synthese-giec_web-leger.pdf"
+    },
+    "Ideas_misconceptions": {
+        "idea1": "Wissenschaftler sind sich nicht einig über die Existenz des Klimawandels.",
+        "explanation1": "Der wissenschaftliche Konsens ist ein langwieriger Prozess, der auf überprüfbaren Beweisen beruht und von der wissenschaftlichen Gemeinschaft akzeptiert wird. <br>Mehr erfahren: https://bonpote.com/le-consensus-scientifique-sur-le-rechauffement-climatique-est-il-de-100/",
+        "idea2": "Der Amazonas hat einen Kipppunkt erreicht.",
+        "explanation2": "Ein Kipppunkt könnte im südöstlichen Amazonas überschritten worden sein, ohne dass dies für den gesamten Amazonaswald gilt. Wir haben immer noch die physischen und politischen Mittel, um den Amazonaswald zu schützen. <br>Mehr erfahren: https://bonpote.com/lamazonie-a-t-elle-franchi-un-point-de-bascule/",
+        "idea3": "Die Anzahl der Megafeuer wird aufgrund des Klimawandels zunehmen.",
+        "explanation3": "Dürre und hohe Temperaturen, begünstigt durch den Klimawandel, sind die Hauptursachen. Alle Prognosen stimmen darin überein, dass sie sich voraussichtlich vermehren und intensivieren werden. <br>Mehr erfahren: https://bonpote.com/doit-on-sattendre-a-plus-de-megafeux-a-cause-du-changement-climatique/",
+        "idea4": "Es wird immer mehr Hurrikane geben.",
+        "explanation4": "Wissenschaftler glauben, dass die Anzahl der Hurrikane geringer oder ähnlich sein wird, obwohl dies je nach Region variieren kann. Aber sie werden im Durchschnitt intensiver in Bezug auf Niederschlag und Windgeschwindigkeit sein. <br>Mehr erfahren: https://bonpote.com/plus-de-cyclones-avec-le-changement-climatique/#Peut-on_pour_autant_parler_de_tendance_a_la_hausse",
+        "true": "Wahr",
+        "false": "Falsch"
+    }
+    
+    
+    
+    
+}

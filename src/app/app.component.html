@@ -1,18 +1,36 @@
+<router-outlet></router-outlet>
+<app-navbar></app-navbar>
 
 <main class="main">
   <body>
-    <app-navbar></app-navbar>
-      
-      <div class="container">
-        <div class="title">
-          <h2 class="text-blue">PRENEZ SOIN DE</h2>
-          <h1 >VOTRE PLANÈTE</h1>
-        </div>
-        <span class="texte-description">
-          <p>Voici votre planète, prenez en soin, plus vous gagnez de point, mieux elle se porte. Pour gagner des points, jouez et renseignez vous. Mais attention, si vous n'en prenez pas soin, son état se détériore et elle se sentir de plus en plus mal. Commencez à jouer pour en découvrir plus sur le changement climatique.</p>
-        </span>
+    <div>
+      <div class="title">
+        <h2 class="text-blue">PRENEZ SOIN DE</h2>
+        <h1 class="text-bottom">VOTRE PLANÈTE</h1>
+      </div>
+      <div class="text-description">
+        <p>Voici votre planète, prenez en soin, plus vous gagnez de point, mieux elle se porte. Pour gagner des points, jouez et renseignez-vous. Mais attention, si vous n'en prenez pas soin, son état se détériore et elle se sentir de plus en plus mal. Commencez à jouer pour en découvrir plus sur le changement climatique.</p>
+      </div>
+      <div class="text-title-games">
+        <h2>LES MINI JEUX</h2>
+      </div>
     </div>
-  </body>
+    <div  class="nuage-1">
+      <a href="/login">
+        <img class="container-games" src="assets/img/nuage.png">
+      </a>
+    </div>
+    <div class="nuage-2">
+      <img class="container-games" src="assets/img/nuage.png">
+    </div>
+    <div class="planet">
+      <img class="fixed-planet" src="assets/img/la_terre_du_bas.png">
+    </div>
+    <div class="nuage-container">
+      <img src="assets/img/nuage.png" alt="Nuage">
+      <div class="texte-sur-nuage">VRAI / FAUX</div>
+    </div>
+    
+    
+</body>
 </main>
-
-<router-outlet></router-outlet>

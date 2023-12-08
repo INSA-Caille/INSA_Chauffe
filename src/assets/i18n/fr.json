@@ -1,0 +1,150 @@
+{
+    "HomePage": {
+        "Take_care_planet":"Prenez soin de",
+        "Take_care_planet2":"votre planète",
+        "descriptif" : "Voici votre planète, prenez en soin, plus vous gagnez de point, mieux elle se porte. Pour gagner des points, jouez et renseignez vous. Mais attention, si vous n'en prenez pas soin, son état se détériorera et elle se sentira de plus en plus mal. Commencez à jouer pour en découvrir plus sur le changement climatique.",
+        "minigame_title" : "LES MINI-JEUX",
+        "sutom": "SUTOM",
+        "pendu": "PENDU",
+        "vraifaux": "VRAI OU FAUX"
+    },
+    "login":{
+        "login":"Connexion",
+        "username":"Nom d'utilisateur",
+        "password":"Mot de passe",
+        "login_button":"Se connecter",
+        "register":"S'inscrire",
+        "forgot_password":"Mot de passe oublié ?",
+        "error":"Erreur",
+        "error_message":"Nom d'utilisateur ou mot de passe incorrect",
+        "error_message2":"Veuillez remplir tous les champs"
+    },
+    "Documentation_etat_actuel": {
+        "Etat_actuel_titre" : "Etat actuel :",
+        "gaz_effets_serre_question" : "Que sont les gaz à effet de serre ?",
+        "gaz_effets_serre_response" : "Les gaz à effet de serre (GES) sont des substances, comme le dioxyde de carbone (CO2) et le méthane, qui retiennent une partie de la chaleur du soleil dans l'atmosphère terrestre. C'est un peu comme une couverture qui maintient la planète au chaud, ce qui est crucial pour la vie telle que nous la connaissons. Cependant, les activités humaines, comme la combustion de carburants fossiles, émettent plus de ces gaz, créant une couverture plus épaisse qui contribue au réchauffement climatique.",
+        "giec_question" : "Qu'est-ce que le GIEC ?",
+        "giec_response" : "Le GIEC, ou Groupe d'experts intergouvernemental sur l'évolution du climat, est une organisation composée de scientifiques du monde entier. Ils étudient les données sur le changement climatique, expliquent ses causes et conséquences, et fournissent des recommandations basées sur des preuves scientifiques solides. Leur objectif est de sensibiliser et d'informer les gouvernements et le public sur les meilleures façons de lutter contre le changement climatique et de minimiser ses impacts. En résumé, le GIEC joue un rôle essentiel pour nous aider à comprendre et à faire face aux défis liés aux gaz à effet de serre et au changement climatique. ",
+        "giec_info_question" : "Quelle sont les informations à retenir du rapport du GIEC ?",
+        "giec_info_response" : "La température mondiale a augmenté de 1,1°C par rapport à la période 1850-1900, établissant les températures actuelles comme les plus élevées depuis le début du millénaire. Le niveau de la mer augmente plus rapidement depuis 1900 qu'au cours des 3000 dernières années, et les océans ont connu un réchauffement plus rapide au XXe siècle qu'au cours des 11 000 dernières années. De plus, la concentration en dioxyde de carbone (CO2) dans l'atmosphère a atteint son niveau le plus élevé depuis 2 millions d'années. Ces indicateurs soulignent l'ampleur du changement climatique actuel et son impact sur le système terrestre.",
+        "chiffre_cle_1_details" : "Sans un renforcement urgent des politiques climatiques actuelles, nous nous dirigeons vers un réchauffement de 3,2°C à la fin du siècle.",
+        "chiffre_cle1": "3,2°C",
+        "giec_info_response2" : "Les événements météorologiques extrêmes deviennent plus fréquents et intenses, affectant notre environnement de manière significative. La biodiversité est également menacée, avec des conséquences potentielles sur l'équilibre des écosystèmes. En parallèle, l'augmentation de ces phénomènes extrêmes accroît les risques sanitaires, exposant les populations à des dangers accrus. De plus, la production agricole mondiale est impactée, mettant en péril la sécurité alimentaire alors que les récoltes et les ressources sont de plus en plus vulnérables aux changements climatiques. Ces interconnexions soulignent les multiples facettes des défis posés par le changement climatique, avec des implications profondes pour la planète et ses habitants.",
+        "chiffre_cle2": "10 %",
+        "chiffre_cle_2_details" : "Les 10 % de ménages ayant les émissions par habitant les plus élevées contribuent à 34-45 % des émissions mondiales de gaz à effet de serre.",
+        "titre_impact_planète" : "Les 9 principaux impacts sur la planète : Critères utilisés par les scientifique pour voir l’impact sur la planète",
+        "impact_details" : "La limite associée au changement climatique se manifeste à travers le niveau de dioxyde de carbone (CO2) dans l'atmosphère, un seuil établi à 350 parties par million (ppm). Ce seuil a été dépassé depuis un certain temps, passant de 387 ppm en 2009 à 395,5 ppm en 2015. <br> Un autre seuil crucial, largement mis en avant par nos scientifiques, concerne le taux de perte de biodiversité à l'échelle mondiale, qui continue de s'accroître, atteignant de 100 à 1 000 fois le taux \"naturel\" d'extinction des espèces. <br>Les chercheurs identifient diverses causes, notamment la transformation des écosystèmes \"naturels\" en zones agricoles (par exemple, l'Amazonie) et urbaines (par exemple, les métropoles), ainsi que l'augmentation alarmante de la fréquence, de la durée et de l'ampleur des incendies de forêt chaque année.<br>À mesure que la température terrestre augmente, le taux d'extinction des espèces augmente également. Par conséquent, plus le taux d'extinction des espèces est élevé, plus les écosystèmes deviennent vulnérables aux divers changements climatiques."
+    },
+    "processes": {
+        "1": {
+        "enonce": "Le changement climatique",
+        "limite": "Atteinte en 2009, confirmée en 2015"
+        },
+        "2": {
+        "enonce": "Le taux de perte de biodiversité terrestre et marine",
+        "limite": "Atteinte en 2009, confirmée en 2015"
+        },
+        "3": {
+        "enonce": "L’altération des cycles biogéochimique",
+        "limite": {
+            "3.1": "Le cycle de l’azote - Atteinte en 2009, confirmée en 2015",
+            "3.2": "Celui du phosphore - Atteinte en 2015"
+        }
+        },
+        "4": {
+        "enonce": "L’appauvrissement de l’ozone stratosphérique",
+        "limite": "A surveiller !"
+        },
+        "5": {
+        "enonce": "L’acidification des océans",
+        "limite": "Bientôt ?"
+        },
+        "6": {
+        "enonce": "L’utilisation globale d’eau douce",
+        "limite": "Bientôt ?"
+        },
+        "7": {
+        "enonce": "L’utilisation des terres",
+        "limite": "Atteinte en 2015"
+        },
+        "8": {
+        "enonce": "La pollution chimique",
+        "limite": "A surveiller !"
+        }
+    },
+    "Documentation_Solutions" :{
+        "title" : "Solutions",
+        "energy_title" : "Energies",
+        "energy_subtitle" : "Quitter les energies fossiles et investir dans les énergies renouvelables",
+        "fossil_energy_question" : "Qu’est-ce que les énergies fossiles ?",
+        "fossil_energy_response" : "Les énergies fossiles sont des combustibles formés à partir de restes d'êtres vivants anciens, comme des plantes et des animaux, qui ont été enterrés et transformés par la pression et la chaleur pendant des millions d'années. Les principales sources d'énergie fossile incluent le pétrole, le charbon et le gaz naturel.",
+        "fossil_energy_question2" : "Pourquoi veut-on arrêter de les utiliser ?",
+        "fossil_energy_response2" : "L'idée de délaisser les énergies fossiles vient surtout du fait que leur utilisation massive contribue à des problèmes environnementaux sérieux. Quand on brûle des combustibles comme le pétrole et le charbon pour produire de l'énergie, cela émet beaucoup de gaz à effet de serre, qui réchauffent la planète et créent des changements climatiques importants. Pour faire simple, il faut éviter les énergies fossiles autant que possible pour préserver notre planète. ",
+        "fossil_energy_question3" : "Par quoi peut-on les remplacer ?",
+        "fossil_energy_response3" : "Pour remplacer les énergies fossiles, on cherche à adopter des sources d'énergie plus durables et respectueuses de l'environnement. Les principales alternatives comprennent l'énergie renouvelable, comme l'énergie solaire et éolienne. L'énergie solaire utilise la lumière du soleil pour produire de l'électricité, tandis que l'énergie éolienne exploite la force du vent. Ces sources d'énergie sont plus propres car elles ne produisent pas de gaz à effet de serre nuisibles, contribuant ainsi à atténuer les changements climatiques. De plus, d'autres technologies innovantes telles que les batteries avancées et le stockage d'énergie contribuent à rendre ces alternatives plus efficaces et fiables. L'objectif est de créer un avenir énergétique plus durable et respectueux de l'environnement. <br>Les coûts de ces deux énergies ont baissé entre 2010 et 2019 de -85% pour l’énergie solaire et de -55% pour l’énergie éolienne.",
+        "fossil_energy_question4" : "Y a-t-il d’autres énergies renouvelable ?",
+        "fossil_energy_response4" : "<strong>Énergie Hydraulique (Hydroélectricité) </strong>: Cette énergie est produite en utilisant la force de l'eau, généralement à partir de barrages. L'eau en mouvement fait tourner des turbines pour produire de l'électricité.<br><br><strong>Énergie Biomasse </strong>: Cette énergie provient de la combustion de matières organiques telles que le bois, les déchets agricoles et les résidus forestiers pour produire de la chaleur ou de l'électricité.<br><br><strong>Énergie Géothermique </strong>: Elle exploite la chaleur provenant de l'intérieur de la Terre. Des centrales géothermiques peuvent produire de l'électricité en utilisant la chaleur du sol ou de l'eau chaude souterraine.<br><br><strong>Énergie des Vagues et des Marées </strong>: Ces formes d'énergie utilisent le mouvement des vagues de l'océan ou les marées pour générer de l'électricité.<br><br><strong>Énergie Solaire Thermique </strong>: Plutôt que de convertir la lumière du soleil en électricité, cette technologie utilise la chaleur solaire pour chauffer des fluides qui produisent de la vapeur, actionnant ensuite des turbines.<br><br><strong>Énergie Éolienne en Mer (Éolien Offshore) </strong>: Les éoliennes installées en mer bénéficient de vents plus forts et plus constants, ce qui en fait une source d'énergie éolienne prometteuse.<br><br><strong>Énergie Solaire Photovoltaïque Intégrée </strong>: Cette technologie intègre des panneaux solaires directement dans des structures comme des bâtiments, fournissant de l'électricité tout en servant d'élément architectural.",
+        "industry_title" : "Industrie",
+        "industry_subtitle" : "Les technologies utilisées pour décarboner l’industrie",
+        "industry_question1" : "Quel est le rôle des progrès technologiques dans la décarbonation de l'industrie ?",
+        "industry_response1" : "Les progrès technologiques récents ont ouvert la voie à la décarbonation de l'industrie en permettant l'utilisation plus efficace des matériaux, des approches circulaires telles que la réutilisation et le recyclage des produits, une forte réduction des déchets, et une diminution de la demande. Ces avancées offrent des opportunités significatives pour réduire l'impact environnemental de l'industrie.",
+        "industry_question2" : "Comment la décarbonation de l'industrie peut-elle être réalisée ?",
+        "industry_response2" : "La décarbonation de l'industrie peut être réalisée en adoptant des mesures telles que l'utilisation plus efficace des matériaux, des approches circulaires, la réduction des déchets, et une diminution de la demande. L'efficacité des matériaux et la sobriété représentent la moitié du potentiel de décarbonation de ce secteur. De plus, l'adoption de procédés de production à émissions de gaz à effet de serre (GES) faibles ou nulles pour les matériaux de base comme l'acier et les matériaux de construction joue un rôle crucial.",
+        "industry_question3" : "Quel est le potentiel de décarbonation du secteur industriel et comment peut-il être atteint ?",
+        "industry_response3" : "Le secteur industriel représente environ un quart des émissions mondiales, et son potentiel de décarbonation réside principalement dans l'amélioration de l'efficacité des matériaux et la promotion de la sobriété. En particulier, des choix politiques favorisant des approches telles que l'utilisation plus efficace des matériaux, la réutilisation, le recyclage, et une réduction significative des déchets peuvent contribuer à la décarbonation. Il est également souligné que des procédés de production à faibles émissions de GES ou sans émissions seront bientôt disponibles pour les matériaux de base.",
+        "industry_question4" : "Quels sont les obstacles potentiels à la décarbonation de l'industrie ?",
+        "industry_response4" : "Les obstacles potentiels à la décarbonation de l'industrie pourraient inclure des choix politiques inadéquats qui ne favorisent pas une véritable transformation du secteur. Une mise en œuvre insuffisante des technologies disponibles, ainsi qu'une résistance aux changements dans les procédés de production traditionnels, pourraient également entraver les efforts de décarbonation. Une sensibilisation accrue, un soutien politique adéquat et une collaboration entre les parties prenantes sont essentiels pour surmonter ces obstacles.",
+        "agriculture_title" : "Agriculture et alimentation",
+        "agriculture_subtitle" : "Les pratiques durable dans l’agriculture et l’alimentation",
+        "agriculture_question1" : "Comment le secteur de l'agriculture peut-il contribuer à l'atténuation des émissions de gaz à effet de serre ?",
+        "agriculture_response1" : "Le secteur de l'agriculture offre plusieurs options pour atténuer les émissions de gaz à effet de serre. Les pratiques agroécologiques, telles que la réduction de l'utilisation d'engrais synthétiques, la diversification des cultures et une meilleure gestion des déjections animales, jouent un rôle crucial en limitant les émissions et en améliorant le stockage du CO2 dans les sols. Ces pratiques apportent également des avantages multiples tels que la protection de la biodiversité, une meilleure qualité de l'eau, de l'air et des sols, ainsi que la sécurité alimentaire.",
+        "agriculture_question2" : "Quel est le rôle de l'agroforesterie dans l'atténuation des émissions de gaz à effet de serre ?",
+        "agriculture_response2" : "L'agroforesterie, qui consiste à associer arbres, cultures et/ou bétail sur une même parcelle, présente un fort potentiel d'atténuation des émissions de gaz à effet de serre. Cette pratique contribue à améliorer la séquestration du carbone dans les sols tout en offrant d'autres avantages tels que la diversification des revenus pour les agriculteurs.",
+        "agriculture_question3" : "Pourquoi est-il important de protéger les forêts et les écosystèmes dans le contexte de l'atténuation du changement climatique ?",
+        "agriculture_response3" : "Les forêts et les écosystèmes jouent un rôle crucial dans l'absorption du carbone, soulignant ainsi l'importance de les protéger et de lutter contre la déforestation. Cependant, le GIEC souligne que bien que la protection des forêts soit essentielle, elle ne peut pas compenser la réduction des émissions, qui doit demeurer la priorité dans tous les secteurs.",
+        "agriculture_question4" : "Quels types de régimes alimentaires sont recommandés pour réduire les émissions de gaz à effet de serre selon le GIEC ?",
+        "agriculture_response4" : "Le GIEC confirme que le passage à des régimes alimentaires riches en protéines végétales (comme les légumes secs et les céréales) et pauvres en viande et en produits laitiers permet une forte réduction des émissions de gaz à effet de serre. Ces choix alimentaires contribuent significativement à l'atténuation du changement climatique.",
+        "transport_title" : "Transports",
+        "transport_subtitle" : "Changer ses mobilités individuelles",
+        "transport_question1": "Pourquoi la décarbonation des transports est-elle un enjeu majeur dans la lutte contre le changement climatique ?",
+        "transport_response1": "La décarbonation des transports revêt une importance capitale dans la lutte contre le changement climatique, étant donné que ce secteur représente le premier émetteur de gaz à effet de serre en France (31%) et un quart des émissions mondiales. Il est crucial de réduire ces émissions pour atténuer les impacts négatifs sur le climat.",
+        "transport_question2" : "Quelles sont les actions recommandées par le GIEC pour réduire les émissions de gaz à effet de serre liées à la mobilité individuelle ?",
+        "transport_response2" : "Le GIEC préconise plusieurs mesures pour diminuer les émissions de gaz à effet de serre liées à la mobilité individuelle. Cela inclut la promotion d'une mobilité sans voiture, en encourageant la marche et le vélo, l'incitation aux transports en commun, le soutien aux véhicules électriques, et la diminution des voyages en avion, en particulier les vols longs courriers.",
+        "transport_question3" : "Comment une réorganisation des zones urbaines peut-elle contribuer à la réduction de la consommation de carburant liée au transport urbain ?",
+        "transport_response3" : "Une réorganisation des zones urbaines peut contribuer significativement à la baisse de la consommation de carburant liée au transport urbain, avec une réduction potentielle d'environ 25%. Cela implique la mise en place d'infrastructures de transport moins dépendantes de la voiture et la proximité entre le domicile des individus et leur lieu de vie, favorisant ainsi des modes de déplacement plus durables.",
+        "transport_question4" : "Pourquoi la limitation du trafic aérien est-elle considérée comme le moyen le plus efficace pour réduire les émissions du secteur de l'aviation ?",
+        "transport_response4" : "La limitation du trafic aérien est considérée comme la mesure la plus efficace pour réduire les émissions du secteur de l'aviation, car le GIEC estime qu'aucune amélioration significative de l'efficacité énergétique ne peut suivre le rythme de la croissance prévue du transport aérien. Restreindre le trafic aérien apparaît donc comme une nécessité pour atténuer les émissions de ce secteur."
+    },
+    "Documentation_other_solutions" : {
+        "title" : "Autres solutions pour tout un chacun",
+        "solution1" : "Éviter les transports polluants (voiture, avion) et préférer les mobilités actives (marche, vélo) et les transports en commun ;",
+        "solution2" : "Utiliser des véhicules plus légers, qui nécessitent moins de matériaux et demandent moins d’énergie ;",
+        "solution3" : "Favoriser les véhicules électriques ;",
+        "solution4" : "Adopter des régimes alimentaires moins riches en viande, sains, équilibrés et durables",
+        "solution5" : "Réorganiser les chaînes de production et d’approvisionnement pour limiter les distances parcourues par les marchandises et les personnes"
+    },
+    "Documentation_ou_s_informer" : {
+        "title" : "Où s’informer ?",
+        "intro" : "Vous souhaitez vous informer plus sur les sujets qui vous ont intéréssés ?",
+        "link1" : "Vous pouvez consulter ces liens : https://reseauactionclimat.org/urgence-climatique/",
+        "link2" : "Si vous souhaitez en savoir plus sur les idées reçues : https://bonpote.com/idees-recues/",
+        "link3" : "Pour vous formez de façon plus approfondie, vous pouvez suivre cette formation : https://climat.cned.fr/formations/",
+        "link4" : "Vous pouvez vous renseigner sur le panel intergouvernemental sur le changement climatique : https://www.ipcc.ch/languages-2/francais/",
+        "link5" : "Vous pouvez vous renseigner plus sur l’agence de la transition écologique (ADEME) : https://www.ademe.fr",
+        "link6" : "Pour vous renseigner sur l’impact CO2 de votre rythme de vie : https://nosgestesclimat.fr",
+        "link7" : "Pour calculer l’impact CO2 des objets de votre quotidien : https://impactco2.fr",
+        "link8" : "Les dix points clés du GIEC : https://reseauactionclimat.org/wp-content/uploads/2023/03/rac-brochure-synthese-giec_web-leger.pdf"
+    },
+    "Ideas_misconceptions" : {
+        "idea1" : "Les scientifiques ne sont pas d’accord sur l'existence du réchauffement climatique.",
+        "explanation1" : "Un consensus scientifique est un long processus fondé sur des preuves vérifiables et acceptées par la communauté scientifique <br>En savoir plus : https://bonpote.com/le-consensus-scientifique-sur-le-rechauffement-climatique-est-il-de-100/",
+        "idea2" : "L’Amazonie a franchi un point de bascule",
+        "explanation2" : "Un point de bascule peut être d’abord franchi dans le sud-est de l’Amazonie, sans que cela soit le cas pour l’ensemble de la forêt amazonienne mais nous avons encore les moyens physiques et politiques de préserver la forêt amazonienne.<br>en savoir plus : https://bonpote.com/lamazonie-a-t-elle-franchi-un-point-de-bascule/",
+        "idea3" : "Le nombre de mégafeux va augmenter à cause du changement climatique.",
+        "explanation3" : "La sécheresse, les températures élevées, elles-mêmes favorisées par le changement climatique, en sont les principales causes.Toutes les projections concordent à dire qu’ils sont amenés à se multiplier et s’amplifier. en savoir plus : https://bonpote.com/doit-on-sattendre-a-plus-de-megafeux-a-cause-du-changement-climatique/",
+        "idea4" : "Il y aura de plus en plus de cyclone.",
+        "explanation4" : "les scientifiques pensent que le nombre de cyclones sera inférieur ou similaire, bien que cela puisse varier selon les régions du monde. Mais ils seront en moyenne plus intenses en termes de précipitations et de vitesse du vent. En savoir plus : https://bonpote.com/plus-de-cyclones-avec-le-changement-climatique/#Peut-on_pour_autant_parler_de_tendance_a_la_hausse",
+        "true" : "Vrai",
+        "false" : "Faux"
+    }
+}
